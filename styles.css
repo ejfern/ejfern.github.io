@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Raleway:wght@200&display=swap');
+
+html {
+    background-color: #FFF0F5;
+}
+
+body {
+    height: 600px;
+}
+
+.descrip {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #800000;
+}
+
+h1 {
+    width: 1000px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #800000;
+    border-width: 2px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: 'Raleway Dots', cursive;
+    font-weight: 1000;
+    font-size: 85px;
+    color: #800000
+  }
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro {
+    display: block;
+    padding: 30px;
+    width: 200px;
+}
+
+.tamu {
+    display: block;
+    padding: 30px;
+    width: 200px;
+}
+
+.tamu:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.rev {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX();
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+}
+
+.icon-buttons {
+    text-align: center;
+    width: 250px;
+    color: #800000;
+    background-color: #FFF0F5;
+    font-weight: 100px;
+    block-size: 280px;
+    margin: 50px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgb(208,61,86), 0 6px 20px 0 rgb(208,61,86);
+}
+
+.icon-buttons:hover {
+    background-color: #D03D56;
+    color: #FFF0F5
+
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+footer {
+    background-color: #800000;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #800000;
+}
+
+.zombie {
+    width: 35px;
+}
+
+header {
+    background-color: #800000;
+}
+
+.realFooter {
+    background-color: #800000;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.honor {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    color:#FFF0F5;
+}
+
+.DJ {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color:#FFF0F5;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
